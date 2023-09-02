@@ -28,7 +28,7 @@ const theme: DefaultTheme = {
 };
 
 export default function App() {
-  const endDate = new Date("July 10, 2023 12:00:00 GMT-5").getTime();
+  const endDate = new Date("January 1, 2024 12:00:00 GMT-5").getTime();
 
   const [date, setDate] = useState(endDate - new Date().getTime());
   const [loaded, setLoaded] = useState(false);
